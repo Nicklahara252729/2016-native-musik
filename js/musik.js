@@ -1,0 +1,61 @@
+$(function(){
+  $('.user').mouseenter(function(){
+      $('.menu').css({
+        visibility:'visible'     
+      });
+  });
+    $('.menu').mouseenter(function(){
+        $('.menu').css({
+            visibility:'visible'
+        });
+    });
+    $('.menu').mouseleave(function(){
+        $('.menu').css({
+            visibility:'hidden',
+        });
+    });
+     $('.btninsert').mouseenter(function(){
+      $('.tambahdata').css({
+        visibility:'visible'     
+      });
+  });
+    $('.tambahdata').mouseenter(function(){
+        $('.tambahdata').css({
+            visibility:'visible'
+        });
+    });
+    $('.tambahdata').mouseleave(function(){
+        $('.tambahdata').css({
+            visibility:'hidden',
+        });
+    });
+    $('.sort').mouseenter(function(){
+      $('.isisort').css({
+        visibility:'visible'     
+      });
+  });
+    $('.isisort').mouseenter(function(){
+        $('.isisort').css({
+            visibility:'visible'
+        });
+    });
+    $('.isisort').mouseleave(function(){
+        $('.isisort').css({
+            visibility:'hidden',
+        });
+    });
+    $('.action').css({
+        borderRight:'0'
+    });
+    $('.btnx').click(function(){
+    $('.userinfo').css({
+        visibility:'hidden'
+    });
+});
+    $('.btnuser').click(function(){
+    $('.userinfo').css({
+        visibility:'visible'
+    });
+});
+});
+
